@@ -1,0 +1,16 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "description": "My first book api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "book"
+  ],
+  "author": "Jaenudin Firdaus",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1"
+}
