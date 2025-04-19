@@ -8,9 +8,9 @@ const app = express();
 
 app.use(express.json());
 
-connectDB()
+connectDB();
 
-app.use("/books", bookRoute);
+app.use("/api/books", bookRoute);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
