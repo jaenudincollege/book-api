@@ -14,20 +14,20 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 
 ## 📋 Table of Contents
 
-1. [Features](#-features)
-2. [Demo](#-demo)
-3. [Prerequisites](#-prerequisites)
-4. [Installation](#-installation)
+1. [Features](#features)
+2. [Demo](#demo)
+3. [Prerequisites](#prerequisites)
+4. [Installation](#installation)
    - [Clone the repo](#clone-the-repo)
    - [Install dependencies](#install-dependencies)
    - [Configure environment](#configure-environment)
-5. [Running the Server](#-running-the-server)
-6. [API Reference](#-api-reference)
+5. [Running the Server](#running-the-server)
+6. [API Reference](#api-reference)
    - [Endpoints](#endpoints)
    - [Example Usage](#example-usage)
-7. [Contributing](#-contributing)
-8. [License](#-license)
-9. [Contact](#-contact)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
 ---
 
@@ -41,8 +41,6 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 ---
 
 ## 🎬 Demo
-
-<!-- If you have a live demo or Swagger UI, link it here. -->
 
 > Coming soon…
 
@@ -58,18 +56,14 @@ A simple RESTful API for managing a collection of books, built with Node.js, Exp
 
 ## 🔧 Installation
 
-### 1. Clone the repo
+### Clone the repo
 
 ```bash
 git clone https://github.com/jaenudincollege/book-api.git
 cd book-api
 ```
 
-### 2. Install dependencies
-
-<aside>
-💡 *Tip:* Click the **Copy** button on the top‑right of each block to quickly grab these commands!
-</aside>
+### Install dependencies
 
 **Using pnpm**
 
@@ -83,7 +77,7 @@ pnpm install
 npm install
 ```
 
-### 3. Configure environment
+### Configure environment
 
 Create a `.env` file in the project root:
 
@@ -125,15 +119,13 @@ Base URL: `http://localhost:<PORT>/api/books`
 
 ### Endpoints
 
-| Method     | Endpoint | Description                       |
-| ---------- | -------- | --------------------------------- |
-| **GET**    | `/`      | Retrieve all books                |
-| **GET**    | `/:id`   | Retrieve a single book by its ID  |
-| **POST**   | `/`      | Create a new book                 |
-| **PATCH**  | `/:id`   | Update an existing book by its ID |
-| **DELETE** | `/:id`   | Delete a book by its ID           |
-
-_All endpoints are prefixed with_ `/api/books`
+| Method     | Endpoint         | Description                       |
+| ---------- | ---------------- | --------------------------------- |
+| **GET**    | `/api/books`     | Retrieve all books                |
+| **GET**    | `/api/books/:id` | Retrieve a single book by its ID  |
+| **POST**   | `/api/books`     | Create a new book                 |
+| **PATCH**  | `/api/books/:id` | Update an existing book by its ID |
+| **DELETE** | `/api/books/:id` | Delete a book by its ID           |
 
 ---
 
@@ -195,7 +187,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 **Your Name**
 
-- GitHub: [@jaenudin-college](https://github.com/jaenudincollege)
+- GitHub: [@jaenudincollege](https://github.com/jaenudincollege)
 - Email: jaenudinfirdaus2004@gmail.com
-
----
