@@ -1,11 +1,14 @@
 import express from "express";
 import dotenv from "dotenv";
 import bookRoute from "./src/routes/book.routes.js";
+import { connectDB } from "./src/database/db.js";
 dotenv.config();
 
 const app = express();
 
 app.use(express.json());
+
+connectDB()
 
 app.use("/books", bookRoute);
 
