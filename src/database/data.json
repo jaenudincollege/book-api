@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "pages": 344,
+    "description": "A practical guide to building good habits and breaking bad ones through small, incremental changes",
+    "publishDate": 2018
+  },
+  {
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "pages": 371,
+    "description": "Explores the science behind habit formation and how habits can be transformed",
+    "publishDate": 2012
+  },
+  {
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "pages": 238,
+    "description": "Early self‑development classic on the mindset and principles of success",
+    "publishDate": 1937
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "pages": 208,
+    "description": "A fable about following your dreams and listening to your heart",
+    "publishDate": 1988
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "pages": 498,
+    "description": "A sweeping narrative of human history from the Stone Age to the 21st century",
+    "publishDate": 2011
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "pages": 334,
+    "description": "A memoir about a woman who grows up in a strict family and eventually earns a PhD",
+    "publishDate": 2018
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "pages": 224,
+    "description": "A counterintuitive approach to living a good life by focusing on what truly matters",
+    "publishDate": 2016
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "pages": 448,
+    "description": "Memoir of the former First Lady of the United States, charting her personal and public life",
+    "publishDate": 2018
+  },
+  {
+    "title": "The Four Agreements",
+    "author": "Don Miguel Ruiz",
+    "pages": 161,
+    "description": "A practical guide to personal freedom based on ancient Toltec wisdom",
+    "publishDate": 1997
+  },
+  {
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "pages": 184,
+    "description": "Reflections on life in Nazi death camps and the psychological lessons learned",
+    "publishDate": 1946
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "pages": 281,
+    "description": "Classic novel about racial injustice in the Deep South",
+    "publishDate": 1960
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "pages": 328,
+    "description": "Dystopian novel on totalitarian regime and surveillance",
+    "publishDate": 1949
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "pages": 279,
+    "description": "Romantic novel exploring manners and marriage in early 19th-century England",
+    "publishDate": 1813
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "pages": 180,
+    "description": "Jazz Age novel about the American Dream and disillusionment",
+    "publishDate": 1925
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "pages": 309,
+    "description": "Fantasy novel about a young wizard discovering his magical heritage",
+    "publishDate": 1997
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "pages": 1178,
+    "description": "Epic fantasy trilogy of Middle-earth battling evil forces",
+    "publishDate": 1954
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "pages": 214,
+    "description": "Story of teenage angst and alienation in postwar America",
+    "publishDate": 1951
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "pages": 310,
+    "description": "Prequel to The Lord of the Rings following Bilbo Baggins' adventure",
+    "publishDate": 1937
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "pages": 671,
+    "description": "Psychological novel exploring morality and guilt",
+    "publishDate": 1866
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "pages": 1225,
+    "description": "Epic novel set during the Napoleonic Wars",
+    "publishDate": 1869
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "pages": 311,
+    "description": "Dystopian novel on a technologically controlled future society",
+    "publishDate": 1932
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "pages": 454,
+    "description": "Thriller involving cryptic codes and historical secrets",
+    "publishDate": 2003
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "pages": 465,
+    "description": "Crime thriller featuring investigative journalist and hacker duo",
+    "publishDate": 2005
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "pages": 371,
+    "description": "Novel of friendship and betrayal set against Afghanistan's turbulent history",
+    "publishDate": 2003
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "pages": 552,
+    "description": "Story of a young girl in Nazi Germany who steals books",
+    "publishDate": 2005
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "pages": 422,
+    "description": "Psychological thriller about a missing wife and the secrets behind her disappearance",
+    "publishDate": 2012
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "pages": 374,
+    "description": "Dystopian novel of teens battling for survival in televised games",
+    "publishDate": 2008
+  },
+  {
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "pages": 487,
+    "description": "Young adult dystopian novel of a society divided into factions",
+    "publishDate": 2011
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "pages": 313,
+    "description": "Romantic novel of two teenagers with cancer",
+    "publishDate": 2012
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "pages": 412,
+    "description": "Science fiction epic of politics, religion, and ecology on desert planet Arrakis",
+    "publishDate": 1965
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "pages": 224,
+    "description": "Comic sci-fi adventure across the universe",
+    "publishDate": 1979
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "pages": 212,
+    "description": "Popular science book on cosmology and black holes",
+    "publishDate": 1988
+  },
+  {
+    "title": "The Immortal Life of Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "pages": 370,
+    "description": "Nonfiction on the woman whose cells contributed to scientific breakthroughs",
+    "publishDate": 2010
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "pages": 656,
+    "description": "Biography of Apple co-founder Steve Jobs",
+    "publishDate": 2011
+  },
+  {
+    "title": "Lean In",
+    "author": "Sheryl Sandberg",
+    "pages": 240,
+    "description": "On women, work, and leadership from a Silicon Valley executive",
+    "publishDate": 2013
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "pages": 287,
+    "description": "Post-apocalyptic novel of a father and son journey",
+    "publishDate": 2006
+  },
+  {
+    "title": "Memoirs of a Geisha",
+    "author": "Arthur Golden",
+    "pages": 448,
+    "description": "Historical novel of a geisha’s life in Kyoto",
+    "publishDate": 1997
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "pages": 311,
+    "description": "Dystopian novel on a theocratic society subjugating women",
+    "publishDate": 1985
+  },
+  {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "pages": 447,
+    "description": "Horror novel about a haunted hotel and a family’s descent into madness",
+    "publishDate": 1977
+  },
+  {
+    "title": "The Outsider",
+    "author": "Stephen King",
+    "pages": 576,
+    "description": "Crime horror novel about a supernatural entity accused of murder",
+    "publishDate": 2018
+  },
+  {
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "pages": 266,
+    "description": "Contemporary novel of a complex relationship between two young adults",
+    "publishDate": 2018
+  },
+  {
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "pages": 384,
+    "description": "Mystery and coming-of-age story set in the marshes of North Carolina",
+    "publishDate": 2018
+  },
+  {
+    "title": "Little Fires Everywhere",
+    "author": "Celeste Ng",
+    "pages": 352,
+    "description": "Novel exploring motherhood and race in suburban America",
+    "publishDate": 2017
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "pages": 336,
+    "description": "Psychological thriller about a woman who stops speaking after murdering her husband",
+    "publishDate": 2019
+  },
+  {
+    "title": "The Testaments",
+    "author": "Margaret Atwood",
+    "pages": 419,
+    "description": "Sequel to The Handmaid's Tale continuing the story of Gilead",
+    "publishDate": 2019
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "pages": 393,
+    "description": "Reimagining of the Greek mythological figure Circe",
+    "publishDate": 2018
+  },
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "pages": 304,
+    "description": "Novel exploring alternate lives and the choices we make",
+    "publishDate": 2020
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "pages": 496,
+    "description": "Sci-fi novel of a lone astronaut’s mission to save Earth",
+    "publishDate": 2021
+  },
+  {
+    "title": "The Vanishing Half",
+    "author": "Brit Bennett",
+    "pages": 352,
+    "description": "Novel exploring race and identity following twin sisters",
+    "publishDate": 2020
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "pages": 320,
+    "description": "Novel about an artificial friend observing human emotions",
+    "publishDate": 2021
+  }
+]
