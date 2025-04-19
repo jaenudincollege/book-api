@@ -19,4 +19,12 @@ const importData = async () => {
   } catch (error) {}
 };
 
+const deleteData = async () => {
+  try {
+    await Book.deleteMany();
+    console.log("All book data is deleted");
+  } catch (error) {}
+};
+
 if (process.argv[2] === "--import") importData();
+if (process.argv[2] === "--delete") deleteData();
