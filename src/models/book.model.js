@@ -18,7 +18,7 @@ const bookSchema = new Schema({
     type: String,
     required: [true, "The book description can not be empty"],
   },
-  publishDate: {
+  publishedDate: {
     type: Date,
     required: [true, "The book publish date can not be empty"],
   },
