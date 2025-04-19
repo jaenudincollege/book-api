@@ -36,7 +36,21 @@ export const addNewBook = async function (req, res) {
   }
 };
 
-export const getBook = async function (req, res) {};
+export const getBook = async function (req, res) {
+  try {
+    const book = await Book.findById(req.params.id);
+    res.status(201).json({
+      status: "success",
+      data: {
+        book,
+      },
+    });
+  } catch (error) {
+    res.status(404).json({
+      message: error.message,
+    });
+  }
+};
 
 export const updateBook = async function (req, res) {};
 
