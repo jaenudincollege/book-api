@@ -1,6 +1,22 @@
 import { Book } from "../models/book.model.js";
 
-export const getAllBooks = async function (req, res) {};
+export const getAllBooks = async function (req, res) {
+  try {
+    const books = await Book.find();
+    res.status(200).json({
+      status: "success",
+      results: books.length,
+      data: {
+        books,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: "fail",
+      message: error.message,
+    });
+  }
+};
 
 export const addNewBook = async function (req, res) {
   try {
