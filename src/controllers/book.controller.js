@@ -52,6 +52,21 @@ export const getBook = async function (req, res) {
   }
 };
 
-export const updateBook = async function (req, res) {};
+export const updateBook = async function (req, res) {
+  try {
+    const book = await Book.findByIdAndUpdate(req.params.id, req.body);
+    res.status(201).json({
+      status: "success",
+      message: "Book updated successfully",
+      data: {
+        book,
+      },
+    });
+  } catch (error) {
+    res.status(404).json({
+      message: error.message,
+    });
+  }
+};
 
 export const deleteBook = async function (req, res) {};
