@@ -12,6 +12,13 @@ connectDB();
 
 app.use("/api/books", bookRoute);
 
+app.all("{*splat}", (req, res) => {
+  res.status(404).json({
+    status: "fail",
+    message: `Can't find ${req.url} in this server`,
+  });
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
