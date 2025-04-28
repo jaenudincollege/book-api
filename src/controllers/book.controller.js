@@ -1,5 +1,4 @@
 import { Book } from "../models/book.model.js";
-import { AppError } from "../utils/AppError.js";
 import { catchAsync } from "../utils/catchAsync.js";
 
 export const getAllBooks = catchAsync(async function (req, res, next) {
