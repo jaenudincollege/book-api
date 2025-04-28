@@ -2,6 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import bookRoute from "./src/routes/book.routes.js";
 import { connectDB } from "./src/database/db.js";
+import { globalError } from "./src/controllers/error.controller.js";
+import { AppError } from "./src/utils/AppError.js";
 dotenv.config();
 
 const app = express();
@@ -13,22 +15,10 @@ connectDB();
 app.use("/api/books", bookRoute);
 
 app.all("{*splat}", (req, res, next) => {
-  const err = new Error(`Can't find ${req.url} in the server.`);
-  err.status = "fail";
-  err.statusCode = 404;
-  next(err);
+  next(new AppError(`Can't find ${req.url} in the server.`, 404));
 });
 
-app.use((err, req, res, next) => {
-  err.status = err.status || "error";
-  err.statusCode = err.statusCode || 500;
-
-  res.status(err.statusCode).json({
-    status: err.status,
-    message: err.message,
-  });
-  next();
-});
+app.use(globalError);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
